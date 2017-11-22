@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "view/index/index",
+    "view/purchase/index",
+    "view/agent/index",
+    "view/manager/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#7F8389",
+    "selectedColor": "#CE3829",
+    "borderStyle": "#ABABAE",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "view/index/index",
+        "iconPath": "/image/shop.png",
+        "selectedIconPath": "/image/shop_active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "view/purchase/index",
+        "iconPath": "/image/goods_new.png",
+        "selectedIconPath": "/image/goods_new_active.png",
+        "text": "进货"
+      },
+      {
+        "pagePath": "view/agent/index",
+        "iconPath": "/image/friend.png",
+        "selectedIconPath": "/image/friend_active.png",
+        "text": "代理"
+      },
+      {
+        "pagePath": "view/manager/index",
+        "iconPath": "/image/settings.png",
+        "selectedIconPath": "/image/settings_active.png",
+        "text": "个人"
+      }
+    ]
+  }
+}
